@@ -5,6 +5,7 @@ function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
 }
 
+/*A função createCanvas() define o tamanho (em pixels) do sketch e qual o sistema de renderização utilizado*/
 function setup() {
   createCanvas(600, 200);
   
@@ -14,7 +15,7 @@ function setup() {
   
   //adicione dimensão e posição ao trex
   trex.scale = 0.5;
-  trex.x = 50
+  trex.x = 50;
   
   //crie um sprite ground (solo)
   ground = createSprite(200,180,400,20);
